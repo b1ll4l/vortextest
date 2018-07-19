@@ -1,3 +1,3 @@
-# Vortex Magento Test
+# Magento Test
 
 Mohammed Ballal
