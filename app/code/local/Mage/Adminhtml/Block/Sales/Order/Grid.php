@@ -44,6 +44,15 @@ class Mage_Adminhtml_Block_Sales_Order_Grid extends Mage_Adminhtml_Block_Widget_
         $this->setSaveParametersInSession(true);
     }
 
+    public function test()
+    {
+        $this->setId('sales_order_grid');
+        $this->setUseAjax(true);
+        $this->setDefaultSort('created_at');
+        $this->setDefaultDir('DESC');
+        $this->setSaveParametersInSession(true);
+    }
+
     /**
      * Retrieve collection class
      *
